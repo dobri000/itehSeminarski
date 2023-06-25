@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c1406db-cf51-41b7-ab5f-f41106abd6a4" name="Changes" comment="" />
+    <list default="true" id="9c1406db-cf51-41b7-ab5f-f41106abd6a4" name="Changes" comment="Dodata autentifikacija korisnika">
+      <change afterPath="$PROJECT_DIR$/TravelPlanner Back/travel-planner/src/main/java/com/example/travelplanner/auth/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelPlanner Back/travel-planner/src/main/java/com/example/travelplanner/auth/AuthenticationRequset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelPlanner Back/travel-planner/src/main/java/com/example/travelplanner/auth/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelPlanner Back/travel-planner/src/main/java/com/example/travelplanner/auth/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelPlanner Back/travel-planner/src/main/java/com/example/travelplanner/auth/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelPlanner Back/travel-planner/src/main/java/com/example/travelplanner/config/security/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelPlanner Back/travel-planner/src/main/java/com/example/travelplanner/config/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelPlanner Back/travel-planner/src/main/java/com/example/travelplanner/config/security/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelPlanner Back/travel-planner/src/main/java/com/example/travelplanner/config/security/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2RfBX3FQx0xibKJwrv7b2Vk6CuS" />
   <component name="ProjectViewState">
@@ -18,7 +33,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TravelPlanner Back" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TravelPlanner Back/travel-planner/src/main/java/com/example/travelplanner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HOME\IdeaProjects\itehSeminarski\TravelPlanner Back\travel-planner\src\main\java\com\example\travelplanner" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -30,5 +50,20 @@
       <updated>1687631313510</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dodata autentifikacija korisnika" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodata autentifikacija korisnika" />
   </component>
 </project>
