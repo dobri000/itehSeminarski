@@ -11,6 +11,7 @@ function Navbar() {
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
+    const role = sessionStorage.getItem('role');
 
     const fetchLocalTime = async () => {
         try {
@@ -18,7 +19,7 @@ function Navbar() {
                 method: 'GET'
             });
             const data = await response.json();
-            const time = data.datetime.slice(11,16);
+            const time = data.datetime.slice(11, 16);
             setLocalTime(time);
         } catch (error) {
             console.log('Error fetching travel plans:', error);
@@ -69,6 +70,13 @@ function Navbar() {
                                 My Profil
                             </Link>
                         </li>
+                        {role === 'ADMIN' && ( // Provera role za prikazivanje novog list item-a
+                            <li className='nav-item'>
+                                <Link to='/all-reservations' className='nav-links' onClick={closeMobileMenu}>
+                                    All reservations
+                                </Link>
+                            </li>
+                        )}
                         <li>
                             <Link to='/login' className='nav-links' onClick={closeMobileMenu}>
                                 Logout
